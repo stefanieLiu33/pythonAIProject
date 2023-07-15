@@ -1,0 +1,40 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[35]:
+
+
+class Student() :
+    # 建構式
+    def __init__(self,name,student_id,age,gender):
+        self.name = name
+        self.student_id = student_id
+        self.age = age
+        self.gender = gender
+
+    # 方法(method)
+    def set_grade(self,grade):
+        self.grade = grade
+        print('grade is set!')
+              
+    def get_grade(self):
+        print(self.name+'\'s is', self.grade)
+    
+    def display_student_info(self):
+        print('student name:',self.name,
+              '\nstudent_id:',self.student_id,
+              '\nage:',self.age,
+              '\ngender:',self.gender)
+
+
+yu = Student('Yu','12345', 15, 'female')
+yu.set_grade(100)
+yu.get_grade()
+yu.display_student_info() 
+
+
+# In[ ]:
+
+
+
+
