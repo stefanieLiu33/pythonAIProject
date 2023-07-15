@@ -27,11 +27,6 @@ class Student() :
               '\ngender:',self.gender)
 
 
-yu = Student('Yu','12345', 15, 'female')
-yu.set_grade(100)
-yu.get_grade()
-yu.display_student_info() 
-
 
 # In[ ]:
 
