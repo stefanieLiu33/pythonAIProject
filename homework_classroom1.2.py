@@ -18,7 +18,7 @@ class Student() :
         print('grade is set!')
                       
     def get_grade(self): # 改用return
-        return print(self.name+'\'s grade is', self.grade)
+        return self.grade
         # return self.grade
     
     def display_student_info(self):
